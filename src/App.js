@@ -1,5 +1,6 @@
 import LeftMenu from './LeftMenu';
 import Navbar from './Navbar';
+import Location from './Location';
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
         <Navbar />
         <LeftMenu />
+        <Location />
     </div>
   );
 }
